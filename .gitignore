@@ -4,3 +4,5 @@
 *.sch-bak
 *.net
 plots/
+rom/*.bin
+ssc-backups/
