@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name ssc)(type Legacy)(uri ${KIPRJMOD}/ssc.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "ssc")(type "Legacy")(uri "${KIPRJMOD}/ssc.lib")(options "")(descr ""))
+  (lib (name "ssc-rescue")(type "KiCad")(uri "${KIPRJMOD}/ssc-rescue.kicad_sym")(options "")(descr ""))
 )
