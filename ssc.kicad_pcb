@@ -503,7 +503,7 @@
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (property "Sheetfile" "ssc.kicad_sch")
     (property "Sheetname" "")
-    (property "ki_description" "3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors")
+    (property "ki_description" "Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C")
     (property "ki_keywords" "rs232 uart transceiver line-driver")
     (path "/00000000-0000-0000-0000-000060829dcf")
     (attr through_hole)
@@ -511,7 +511,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a56da97d-e630-4ac2-8b5f-ecd6c08d0c09)
     )
-    (fp_text value "MAX3232" (at 3.7155 11.128 90) (layer "F.Fab") hide
+    (fp_text value "MAX232" (at 3.7155 11.128 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 034a716d-ef62-4a0d-b22f-48c653fe4fbd)
     )
@@ -2065,7 +2065,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 89bf78e4-05db-4c7c-9b7a-825c69f310b8)
     )
-    (fp_text value "W65C51NxP" (at 7.62 35.35 -90) (layer "F.Fab")
+    (fp_text value "6551" (at 7.97 13.88 -90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c1cce5a9-e627-476b-964e-468640ee264e)
     )
@@ -2519,7 +2519,7 @@
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (property "Sheetfile" "ssc.kicad_sch")
     (property "Sheetname" "")
-    (property "ki_description" "3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors")
+    (property "ki_description" "Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C")
     (property "ki_keywords" "rs232 uart transceiver line-driver")
     (path "/00000000-0000-0000-0000-00006068f0ba")
     (attr through_hole)
@@ -2527,7 +2527,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c0ed3a7d-974c-4dab-8713-f79ff22b0422)
     )
-    (fp_text value "MAX3232" (at 3.7155 7.9055 90) (layer "F.Fab") hide
+    (fp_text value "MAX232" (at 3.7155 7.9055 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 819264e4-ab23-4128-96ca-45f85f76a951)
     )
@@ -3876,7 +3876,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e6eab188-5e7c-4610-9900-5436eaf4523a)
     )
-    (fp_text value "1.8432M" (at 3.81 -2.41 90) (layer "F.Fab")
+    (fp_text value "1.8432 MHz" (at 3.81 -2.41 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4b3dbe07-b12f-4baa-8f59-f35633a925c9)
     )
