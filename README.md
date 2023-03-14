@@ -25,11 +25,11 @@ with what made the layout easier.
 ## Parts List
 
 * A 74LS245 octal bus transceiver (non-TTL appears to have issues with the ROM address decode logic) (U1)
-* A 28C256 EEPROM (28-pin JEDEC EPROMs such as the 27128 also work) (U2)
+* A 28-pin 27xx-series EPROM (JEDEC-compatible EEPROMs will also work) (U2)
 * A 1.8432 MHz 5V oscillator (U3)
 * A 22V10 GAL (any speed or variety should work) (U4)
 * A W65C51N ACIA (U5)
-* Two MAX3232 RS-232 line transceivers (U6, U7)
+* Two MAX232 RS-232 line transceivers (U6, U7)
 * Seven 0.1uf ceramic bypass caps (C1-C7)
 * Eight 1uf 16V electrolytic caps (C9-C16)
 * A 2x5 pin header (J1)
